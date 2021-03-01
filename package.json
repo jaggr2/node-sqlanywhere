@@ -1,14 +1,14 @@
 {
   "author": "SQL ANYWHERE",
-  "name": "sqlanywhere",
-  "description": "SQL Anywhere JavaScript Driver.",
+  "name": "@jaggr2/sqlanywhere",
+  "description": "Fork of SQL Anywhere JavaScript Driver for Node12/14",
   "version": "2.0.1",
   "repository": {
-    "url": "https://github.com/sqlanywhere/node-sqlanywhere"
+    "url": "https://github.com/jaggr2/node-sqlanywhere"
   },
   "main": "./lib/index",
   "engines": {
-    "node": ">=0.10"
+    "node": ">=12"
   },
   "scripts": {
     "install": "node build.js"

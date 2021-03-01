@@ -1,29 +1,18 @@
-# node-sqlanywhere
-This is a Node.js driver written for [SAP SQL Anywhere](http://www.sap.com/pc/tech/database/software/sybase-sql-anywhere/index.html).
+# @jaggr2/node-sqlanywhere
+This is a fork of Node.js driver written for [SAP SQL Anywhere](http://www.sap.com/pc/tech/database/software/sybase-sql-anywhere/index.html).
 
 [![NPM](https://nodei.co/npm/sqlanywhere.png?compact=true)](https://nodei.co/npm/sqlanywhere/)
 
+## Fork Info
+This fork was build against NodeJS 14 with SQL Anywhere Driver v16 (64-Bit)
+
 ## Install
 ```
-npm install sqlanywhere
+npm install @jaggr2/sqlanywhere
 ```
 #### Prerequisites
 This driver communicates with the native SQL Anywhere libraries, and thus requires
 native compilation. Native compilation is managed by [`node-gyp`](https://github.com/TooTallNate/node-gyp/). Please see that project for additional prerequisites including Python 2.7, and C/C++ tool chain.
-
-The official version hosted on NPM includes precompiled libraries for Windows (64-bit).
-
-Versions supported:
-
-<table border="1">
-<tr><th>Driver version</th><th>Node.js version</th></tr>
-<tr><td>1.0.6</td><td>0.10, 0.12, 4.x, 5.x</td></tr>
-<tr><td>1.0.9</td><td>6.x, 7.x</td></tr>
-<tr><td>1.0.19</td><td>8.x</td></tr>
-<tr><td>1.0.22</td><td>9.x</td></tr>
-<tr><td>1.0.23</td><td>10.x</td></tr>
-<tr><td>1.0.24</th><td><b>Only</b> 5.x through 10.x (support for 0.10, 0.12, and 4.x is dropped)</td></tr>
-</table>
 
 ## Getting Started
 

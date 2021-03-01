@@ -2,7 +2,7 @@
   "author": "SQL ANYWHERE",
   "name": "@jaggr2/sqlanywhere",
   "description": "Fork of SQL Anywhere JavaScript Driver for Node12/14",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "repository": {
     "url": "https://github.com/jaggr2/node-sqlanywhere"
   },
